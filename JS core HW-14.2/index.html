@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="signupContainer">
+        <h1>Create your account</h1>
+
+        <form name="createAccount" id="signupForm">
+            <label for="firstName">
+
+                <p>First Name </p>
+                <input type="text" placeholder="type here..." id="firstName" required>
+            </label>
+            <label for="emailAddress">
+                <label for="secondName">
+                    <p>Second Name </p>
+                    <input type="text" placeholder="type here..." id="lastName" required>
+                </label>
+                <p>Email Address </p>
+                <input type="text" placeholder="enter email" id="emailAddress" required>
+            </label>
+
+
+            <input type="radio" name="gender" value="man" id="option1" checked>
+            <label for="option1">man</label>
+
+            <input type="radio" name="gender" value="woman" id="option2">
+            <label for="option2">woman</label>
+
+            <br>
+
+            <p><label>Position:</label></p>
+            <select id="position" required>
+                <option value="" selected>Choose...</option>
+                <option value="Frontend">Frontend</option>
+                <option value="Backend">Backend</option>
+                <option value="QC/QA">QC/QA</option>
+            </select>
+
+            <br>
+            <input type="checkbox" id="agreeCheckbox" required>
+            <label for="agreeCheckbox">I agree all statements in Terms of service</label>
+            <br>
+            <button type="button" id="signupButton" >Sign Up</button>
+        </form>
+    </div>
+
+
+    <div id="profileContainer">
+        <div id="backgroundImage">
+            <div id="box-image"></div>
+        </div>
+        <div id="profileInfo"></div>
+        <button type="reset" id="signoutButton">Sign Out</button>
+        <div id="icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+
+        </div>
+    </div>
+
+
+
+    <script src="https://kit.fontawesome.com/c1f2198c5c.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>

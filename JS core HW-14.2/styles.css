@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#signupContainer, #profileContainer {
+  height: 500px;
+  width: 500px;
+  margin: 100px auto 0;
+  border: 2px solid darkgray;
+  border-radius: 12px;
+}
+#signupContainer h1, #profileContainer h1 {
+  background-color: green;
+  text-align: center;
+  color: white;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding: 19px 25px;
+}
+#signupContainer #signupForm, #profileContainer #signupForm {
+  padding: 19px 25px;
+}
+#signupContainer #signupForm input[type=text], #profileContainer #signupForm input[type=text] {
+  width: 450px;
+  height: 24px;
+}
+#signupContainer #signupForm p, #profileContainer #signupForm p {
+  margin: 12px 0 7px;
+}
+#signupContainer #signupForm input[type=radio], #profileContainer #signupForm input[type=radio] {
+  margin: 20px 0 7px;
+}
+#signupContainer #signupForm input[type=radio] + label, #profileContainer #signupForm input[type=radio] + label {
+  margin: 0px 20px 0px 5px;
+}
+#signupContainer #signupForm select, #profileContainer #signupForm select {
+  width: 450px;
+}
+#signupContainer #signupForm input[type=checkbox], #profileContainer #signupForm input[type=checkbox] {
+  margin: 16px 0;
+}
+#signupContainer #signupForm button[type=button], #profileContainer #signupForm button[type=button] {
+  width: 450px;
+  height: 40px;
+  background-color: limegreen;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+#profileContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+}
+#profileContainer #backgroundImage {
+  height: 130px;
+  background-color: green;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  position: relative;
+}
+#profileContainer #box-image {
+  width: 125px;
+  height: 200px;
+  position: absolute;
+  bottom: -89px;
+  left: 182px;
+  background-size: cover;
+  background-image: url(./image/gender.png);
+}
+#profileContainer #icons {
+  width: 496px;
+  height: 75px;
+  background-color: green;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#profileContainer #icons i {
+  color: white;
+  font-size: 27px;
+  margin: 0 6px;
+}
+#profileContainer button[type=reset] {
+  border: 1px solid green;
+  color: green;
+  background-color: white;
+  height: 50px;
+  width: 98px;
+  font-size: 19px;
+  border-radius: 4px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+#profileContainer button[type=reset]:hover {
+  background-color: green;
+  color: white;
+  transition: 0.1s all;
+}
+#profileContainer #profileInfo {
+  height: 100px;
+  margin: 30px auto 0;
+}
+#profileContainer #profileInfo h2 {
+  margin-bottom: 10px;
+}
+#profileContainer #profileInfo p {
+  margin-bottom: 10px;
+}/*# sourceMappingURL=styles.css.map */
